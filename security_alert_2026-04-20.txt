@@ -1,0 +1,29 @@
+---Security Alert Report---
+
+2025-04-07 00:07:21 ERROR Database connection timeout on db-replica-2
+2025-04-07 00:08:11 ERROR Database connection timeout on db-replica-2 (retry exhausted)
+2025-04-07 00:15:33 FAILED LOGIN  IP: 203.45.67.89 | User: admin | Reason: Wrong password
+2025-04-07 00:15:40 FAILED LOGIN  IP: 203.45.67.89 | User: admin | Reason: Wrong password
+2025-04-07 00:15:48 FAILED LOGIN  IP: 203.45.67.89 | User: admin | Reason: Wrong password
+2025-04-07 00:16:01 CRITICAL Brute-force pattern detected from IP 203.45.67.89 — account locked
+2025-04-07 00:23:11 ERROR Disk usage at 92% on /dev/sda1 — cleanup recommended
+2025-04-07 00:27:44 FAILED LOGIN  IP: 91.108.4.200 | User: root | Reason: Invalid credentials
+2025-04-07 00:28:03 FAILED LOGIN  IP: 91.108.4.200 | User: root | Reason: Invalid credentials
+2025-04-07 00:29:10 CRITICAL Unauthorized root access attempt from IP 91.108.4.200 — IP banned
+2025-04-07 00:35:44 ERROR Memory allocation failure on app-server-1 — process restarted
+2025-04-07 00:42:17 ERROR Nightly report failed — insufficient disk space
+2025-04-07 00:43:00 CRITICAL Storage threshold exceeded on /var/log — auto-archive triggered
+2025-04-07 00:55:30 FAILED LOGIN  IP: 185.220.101.34 | User: deploy | Reason: Wrong password
+2025-04-07 00:56:10 FAILED LOGIN  IP: 185.220.101.34 | User: deploy | Reason: Wrong password
+2025-04-07 00:57:00 CRITICAL Multiple failed login attempts from IP 185.220.101.34 — flagged
+2025-04-07 01:05:33 ERROR API gateway timeout — response exceeded 30s threshold
+2025-04-07 01:10:22 FAILED LOGIN  IP: 45.33.32.156 | User: admin | Reason: Account disabled
+2025-04-07 01:12:05 ERROR Microservice auth-service returned HTTP 503
+2025-04-07 01:17:44 CRITICAL auth-service down — failover to backup instance initiated
+2025-04-07 01:25:10 ERROR Payment gateway response delayed by 8.3 seconds
+2025-04-07 01:33:55 FAILED LOGIN  IP: 23.95.95.95 | User: postgres | Reason: Wrong password
+
+---Summary---
+ERROR:8
+CRITICAL:5
+FAILED LOGIN:9
